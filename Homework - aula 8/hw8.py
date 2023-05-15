@@ -1,6 +1,5 @@
 import spacy
 from collections import Counter
-import sys
 from itertools import combinations
 
 file = open('harry_potter_pedra_filosofal.txt', 'r')
