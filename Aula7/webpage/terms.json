@@ -4,19 +4,6 @@
         "en": "mortally ill, dying",
         "es": "a la muerte"
     },
-    "abaulamento": {
-        "pt": "abaulamento",
-        "en": "swell",
-        "es": "hinchazón"
-    },
-    "abcesso": {
-        "pt": "abcesso",
-        "en": "abscess",
-        "es": "absceso",
-        "des": [
-            "abcesso, tumor"
-        ]
-    },
     "abdómen": {
         "pt": "abdómen",
         "en": "belly, abdomen",
@@ -25805,14 +25792,6 @@
         ],
         "en": "occipital"
     },
-    "abdome": {
-        "pt": "abdome",
-        "des": [
-            "Parte do tronco entre o tórax, a margem superior do sacro, o ligamento inguinal e a sínfi se púbica",
-            "Cavidade oval situada  entre o limite inferior do tórax e  a pelve. Fica protegido, anterior e  lateralmente, pelos músculos abdominais e, posteriormente, pelas vértebras e músculos da espinha dorsal.  Abriga o estômago, os intestinos  grosso e delgado, o fígado, a vesícula biliar, o pâncreas, o baço, os rins  com as correspondentes glândulas  supra-renais, a aorta abdominal, vasos sangüíneos e nervos do sistema  vegetativo e simpático."
-        ],
-        "en": "abdomen"
-    },
     "pelve": {
         "pt": "pelve",
         "des": [
@@ -29316,27 +29295,6 @@
             "Orifício superior na fossa pterigopalatina que conduz à cavidade nasal maior parte é formada pelo palatino, e a menor, pelo esfenóide"
         ],
         "en": "sphenopalatine foramen"
-    },
-    "a, an": {
-        "pt": "a, an",
-        "des": [
-            "Prefixo indicando “ausência”. Ex.: amenorréia (falta de  menstruação); anoxia (falta de  oxigênio)."
-        ],
-        "en": "a, an"
-    },
-    "aa": {
-        "pt": "aa",
-        "des": [
-            "Abreviatura que os médicos  usam nas receitas e que significa  “partes iguais”."
-        ],
-        "en": "aa"
-    },
-    "abasia": {
-        "pt": "abasia",
-        "des": [
-            "Falta de coordenação no  andar."
-        ],
-        "en": "abasia"
     },
     "abdome agudo": {
         "pt": "abdome agudo",
@@ -68832,8 +68790,5 @@
             "zona de excitabilidade aumentada (trigger zone)"
         ],
         "en": "pressure zone"
-    },
-    "test1": {
-        "desc": ""
     }
 }

@@ -1,0 +1,56 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<table id="example" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Designation</th>
+            <th>Portuguese</th>
+            <th>English</th>
+            <th>Español</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        {%for keys, desc in db.items()%}
+        <tr>
+            <td>{{keys}}</td>
+            {% if desc['pt'] %}
+            <td>{{desc['pt']}}</td>
+            {% else %}
+            <td></td>
+            {% endif %}
+            {% if desc['en'] %}
+            <td>{{desc['en']}}</td>
+            {% else %}
+            <td></td>
+            {% endif %}
+            {% if desc['es'] %}
+            <td>{{desc['es']}}</td>
+            {% else %}
+            <td></td>
+            {% endif %}
+            {% if desc['des'] %}
+            <td><ul>
+            {% for i in desc['des'] %}
+            <li>{{i}}</li>
+            {% endfor %}
+            </ul></td>
+            {% else %}
+            <td></td>
+            {% endif %}
+        </tr>
+        {% endfor %}
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Designation</th>
+            <th>Portuguese</th>
+            <th>English</th>
+            <th>Español</th>
+            <th>Description</th>
+        </tr>
+    </tfoot>
+</table>
+{% endblock %}

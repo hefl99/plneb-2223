@@ -5,14 +5,15 @@
 
 <form action="/term" method="POST">
     <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Desigantion</label>
+      <label for="new_desi" class="form-label">Desigantion</label>
       <input type="text" class="form-control" name="new_desi" placeholder="Add new Desigantion">
     </div>
     <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Description</label>
+      <label for="new_desc" class="form-label">Description</label>
       <input type="text" class="form-control" name="new_desc" placeholder="Add new Description">
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
+    <p>{{message}}</p>
   </form>
 
 <div class="list-group">

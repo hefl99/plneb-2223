@@ -2,25 +2,18 @@
 
 {% block body %}
 
-<form action="/search" method="GET" class="input-group" style="margin: 10px;">
-  <input type="text" name="user_input" class="form-control" placeholder="Search for...">
-  <span class="input-group-btn">
+<form action="/terms/search" method="GET">
+  <div class="mb-3">
+    <label class="form-label">Insert Text</label>
+    <input type="text" name="text" class="form-control" placeholder="Search for...">
+  </div>
     <button type="submit" class="btn btn-primary">Search</button>
-  </span>
 </form>
 
-<div class="container">
-  <h2>Search Results for "{{ search_term }}"</h2>
-  {% if results %}
-  <ul>
-    {% for result in results %}
-    <li><a href="{{ url_for('term', t=result) }}">{{ result }}</a></li>
-    {% endfor %}
-  </ul>
-  {% else %}
-  <p>No results found.</p>
-  {% endif %}
-</div>
-
+<ul>
+  {% for designation, description in results %}
+  <li><b>{{designation}}:</b>{{description['des']}}</li>
+  {% endfor %}
+</ul>
 
 {% endblock %}
